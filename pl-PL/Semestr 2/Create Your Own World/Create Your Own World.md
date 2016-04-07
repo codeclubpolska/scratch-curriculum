@@ -1,34 +1,34 @@
 ---
 title: Create Your Own World
 level: Scratch 2
-language: en-GB
+language: pl-PL
 stylesheet: scratch
 embeds: "*.png"
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 ...
 
-# Introduction { .intro }
+# Wstęp { .intro }
 
-In this project you'll learn how to create your own open-world adventure game.
+Wykonując ten projekt dowiesz się, jak stworzyć własną grę przygodową.
 
 <div class="scratch-preview">
 	<iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/34248822/?autostart=true" frameborder="0"></iframe>
 	<img src="world-final.png">
 </div>
 
-# Step 1: Coding your player { .activity }
+# Krok 1: Zakoduj postać { .activity }
 
-Let's start by creating a player, that can move around your world.
+Zacznijmy od stworzenia postaci, która będzie mogła poruszać się po twoim świecie.
 
-## Activity Checklist { .check }
+## Zadania do wykonania { .check }
 
-+ Start a new project, and delete the cat sprite, so that your project is empty.
++ Swtórz nowy projekt i usuń duszka-kota, aby projekt był pusty.
 
-+ For this project, you should have a 'Project Resources' folder, containing all of the images you'll need. Make sure that you can find this folder, and ask your club leader if you can't find it.
++ Na potrzeby tego projektu będziesz potrzebować katalog "Zasoby", w którym znajdziesz wszystkie obrazki, jakich będziesz potrzebować. Upewnij się, że wiesz, gdzie znaleźć ten katalog, a jeśli nie wiesz - zapytaj prowadzącego.
 
 	![screenshot](world-resources.png)
 
-+ Add the image 'room1.png' as a new stage backdrop, and the image 'player.png' as a new sprite. If you don't have these images you can draw them yourself! Here's how your project should look:
++ Ustaw obrazek "room1.png" jako tło sceny i dodaj nowego duszka używając obrazka "player.png". Jeśli nie masz tych obrazków, możesz narysować własne! Projekt powinien wyglądać mniej więcej tak:
 
 	![screenshot](world-player.png)
 
@@ -103,7 +103,7 @@ Add code to your player, so that you can't walk through walls in any direction. 
 
 Let's allow the player to walk through doors into other rooms!
 
-## Activity Checklist { .check }
+## Zadania do wykonania { .check }
 
 + Add 2 more backdrops to your stage ('room2.png' and 'room3.png'), so that you have 3 backdrops in total. Make sure that they are in the right order - this will help you later.
 
@@ -144,7 +144,7 @@ Can you make your player move to the previous room when they touch a yellow door
 
 Let's add signs to your world, to guide your player on their journey.
 
-## Activity Checklist { .check }
+## Zadania do wykonania { .check }
 
 + Upload the image 'sign.png' as a new sprite, and rename the sprite 'welcome sign'.
 
@@ -196,7 +196,7 @@ Can you add a new treasure chest sprite, using the image 'chest.png'. This treas
 
 Let's add other people to your world, that your player can interact with.
 
-## Activity Checklist { .check }
+## Zadania do wykonania { .check }
 
 + Add in a new person sprite, using the image 'person.png'.
 
@@ -260,7 +260,7 @@ Can you create another enemy in room 3, that patrols up and down through the gap
 
 # Step 5: Collecting coins { .activity }
 
-## Activity Checklist { .check }
+## Zadania do wykonania { .check }
 
 + Add a new variable valled `coins` {.blockdata} to your project.
 
@@ -291,7 +291,7 @@ Can you add more coins to your game? They can be in different rooms, and some co
 
 # Step 6: Doors and keys { .activity }
 
-## Activity Checklist { .check }
+## Zadania do wykonania { .check }
 
 + Create a new sprite from your 'key-blue.png' image. Switch your stage to backdrop 3, and place the key somewhere difficult to reach!
 
@@ -355,4 +355,3 @@ You can now continue creating your own world. Here are some ideas:
 	![screenshot](world-north-south.png)
 
 ## Save your project { .save }
-
